@@ -12,7 +12,7 @@ conn = st.connection("gsheets", type=GSheetsConnection)
 st.header("Realisasi Anggaran Pembangunan Gereja")
 st.subheader("Gereja Katolik Roh Kudus Kebonarum")
 st.write("Dion Dharmawan")
-st.image(gereja.jpg)
+st.image("gereja.jpg")
 
 sql = '''
 SELECT
