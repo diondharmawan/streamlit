@@ -11,7 +11,7 @@ conn = st.connection("gsheets", type=GSheetsConnection)
 #st.dataframe(data)
 st.header("Realisasi Anggaran Pembangunan Gereja")
 st.subheader("Gereja Katolik Roh Kudus Kebonarum")
-st.write("Dion Dharmawan")
+st.write("@PANITIAGRK")
 st.image("gereja.jpg")
 
 sql = '''
